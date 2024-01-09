@@ -1,0 +1,68 @@
+body{
+  
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background:rgb(0, 182, 142);
+
+}
+
+.wrapper header{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    z-index: 0;
+}
+
+.green{
+    background:rgb(0, 182, 142);
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    transform: skewX(-18deg);
+    margin-left: 15px;
+    border-right: solid rgb(204, 204, 204) 5px;
+}
+.white{
+    background: rgb(219, 219, 219);
+    color: rgb(0, 182, 142);
+    text-align: center;
+    
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+  }
+  .form{
+    display: grid;
+    grid-template-rows: auto;
+    align-self: center;
+    align-items: center;
+    margin: 100px auto;
+    background: rgba(219, 219, 219, 0.815);
+    height: auto;
+    padding: 10px;
+    width:30%;
+    border-radius: 15px;
+  }
+  .form:hover{
+    opacity: 0.9;
+
+  }
+  .form p {
+    text-align: center;
+  }
+  #survey-form{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: auto;
+    grid-gap: 5px;
+}
+
+
+
